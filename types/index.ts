@@ -1,2 +1,15 @@
-// Global shared types — add domain types in separate files alongside this one.
-export {};
+export type ApplicationStatus =
+  | "APPLIED"
+  | "INTERVIEW"
+  | "OFFER"
+  | "REJECTED";
+
+export interface JobApplication {
+  id: string;
+  company: string;
+  role: string;
+  url: string;
+  status: ApplicationStatus;
+  notes: string;
+  appliedDate: Date;
+}
