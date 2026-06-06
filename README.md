@@ -2,6 +2,8 @@
 
 Your hiring pipeline, streamlined.
 
+**Live site:** [pipelined-lilac.vercel.app](https://pipelined-lilac.vercel.app)
+
 ## Tech Stack
 
 | Tool | Purpose |
